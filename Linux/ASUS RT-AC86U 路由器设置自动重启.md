@@ -26,19 +26,6 @@ cru a autoreboot_2 "0 18 * * * /sbin/reboot"
 
 
 
-vi编辑器的基本用法，请浏览[Vi 基本用法](https://howesdomo.github.io/Note_Markdown/Linux/Vi 基本用法.md)
+vi编辑器的基本用法，请浏览 [Vi基本用法](https://howesdomo.github.io/Note_Markdown/Linux/Vi基本用法.md)
 
-cru 定时命令使用方法, 请访问此[网址]()
-
-### cru / crontab 定时命令使用方法
-
-| key    | 描述         | 命令                                                  |
-| ------ | ------------ | ----------------------------------------------------- |
-| add    | 新建定时任务 | cru a <unique id> <"min hour day month week command"> |
-| delete | 删除定时任务 | cru d <unique id>                                     |
-| list   | 列出所有任务 | cru l                                                 |
-
- 
-
-
-
+cru 定时命令使用方法, 请浏览 [cru定时任务](https://howesdomo.github.io/Note_Markdown/Linux/cru定时任务.md)
