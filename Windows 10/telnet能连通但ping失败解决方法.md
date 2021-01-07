@@ -2,13 +2,15 @@
 
 低级的做法， 将防火墙关闭， 关闭后就能ping通了。
 
-**正确的做法时，在防火墙中启用对应的 ICMP**
+**正确的做法时，在防火墙中启用对应的 ICMP**，若使用ipv4的可以参考下图
+
+![ipv4](https://howesdomo.github.io/Note_Markdown/Windows 10/telnet能连通但ping失败解决方法/01.png)
+
+使用ipv6的开启 ICMPv6-In 即可
 
 
 
-使用ipv4的可以参考下图
-
-![ipv4]()
+## 延申学习
 
 ### ping的本质ICMP(Intent Control Message Protocol 互联网控制报文协议)
 
@@ -20,5 +22,7 @@ ping这个网络工具利用的时ICMP，[详细了解ICMP](https://www.jianshu.
 
 
 
-telnet能连通就是能连通了。
+## 总结
+
+telnet能连通，代表网络正常。ping不通绝大多数情况时由于防火墙的原因。
 
