@@ -33,7 +33,7 @@ cat /etc/ssh/sshd_config
 sudo dpkg-reconfigure openssh-server ## 创建 RSA_KEY
 ~~~
 
-![image-20211104110642086](D:\Note_Markdown\Linux\开启ubuntu(WSL)远程ssh\image-20211104110642086.png)
+![image-20211104110642086](https://howesdomo.github.io/Note_Markdown/Linux/开启ubuntu(WSL)远程ssh/image-20211104110642086.png)
 
 
 
@@ -43,7 +43,7 @@ sudo dpkg-reconfigure openssh-server ## 创建 RSA_KEY
 sudo service ssh restart ## 重启SSH服务
 ~~~
 
-![image-20211104110746315](D:\Note_Markdown\Linux\开启ubuntu(WSL)远程ssh\image-20211104110746315.png)
+![image-20211104110746315](https://howesdomo.github.io/Note_Markdown/Linux/开启ubuntu(WSL)远程ssh/image-20211104110746315.png)
 
 
 
@@ -51,5 +51,5 @@ sudo service ssh restart ## 重启SSH服务
 
 打开 finalshell, 填上 ip, port, linux 系统的账号密码即可
 
-![image-20211104110841341](D:\Note_Markdown\Linux\开启ubuntu(WSL)远程ssh\image-20211104110841341.png)
+![image-20211104110841341](https://howesdomo.github.io/Note_Markdown/Linux/开启ubuntu(WSL)远程ssh/image-20211104110841341.png)
 
